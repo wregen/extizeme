@@ -92,10 +92,11 @@ function siteCssOptions($cssOption) {
 .x-grid3-col a:hover {color:#fff;}
 .wp-caption {border:1px solid #2E48AB !important;background-color:#3399ff !important;}
 
+#header a.blog-title {color:#ffffff;} 
+.accordion-item ul li a {color:#ffffff;}
 /*
 .x-panel-body a, .x-panel-header a, .entry a, #header h1 a   {color:#ffffff;} 
 .x-panel-bwrap a, .x-panel-header a, .entry a, #header h1 a   {color:#ffffff;} 
-
 .x-panel-body a:hover, .x-panel-header a:hover, .entry a:hover,#header h1 a:hover  {color:#F7ECC1;} 
 .x-panel-bbar a {color:#1A5C9A;}
 .x-panel-bbar a:hover {color:#1A5C9A;}

@@ -11,7 +11,8 @@ WP.Widget = Ext.extend(Ext.Panel, {
         if (this.accordionItem) {
             Ext.apply(this, {
                 border:false,
-                bodyStyle:'padding:10px;border-bottom-width:1px;'
+                bodyStyle:'padding:10px;border-bottom-width:1px;',
+                cls: 'accordion-item widget'
             });
         } else {
             Ext.apply(this, {
@@ -22,7 +23,7 @@ WP.Widget = Ext.extend(Ext.Panel, {
             });
         }
         
-        Ext.apply(this, {
+        Ext.applyIf(this, {
             cls:'widget',
             html: this.questBody(),
             autoScroll:true
