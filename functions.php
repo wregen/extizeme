@@ -338,7 +338,7 @@ function widget_extjslike_calendar($args) {
     $options = get_option('widget_calendar');
     $title = $options['title'];
     if ( empty($title) )
-        $title = '&nbsp;';
+        $title = 'Calendar';
     echo $before_widget . $before_title . $title . $after_title;
     echo '<div id="calendar_wrap">';
     get_extjslike_calendar();

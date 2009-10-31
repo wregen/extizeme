@@ -35,6 +35,9 @@ WP.Sidebar = Ext.extend(Ext.Panel, {
         var q = Ext.DomQuery;
 
         col.each(function(w){
+            if (w.dom.id == 'extizeme-switch') { 
+                return;
+            }
             var t = q.selectNode('.widgettitle', w.dom)||q.selectNode('.widget-title', w.dom)||q.selectNode('.title', w.dom);
             if (t && t.innerHTML) {
                 var widgetId = 'widget-' + Ext.util.MD5(t.innerHTML);

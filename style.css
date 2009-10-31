@@ -358,3 +358,10 @@ text-align:center;
 /* Feed Icon */
 
 .icon-feed { background-image:url(images/feed.png) !important; }
+
+#extizeme-switch        {-webkit-transition: all 1s ease-in-out;}
+#extizeme-switch:hover  {-webkit-transform: rotate(720deg) scale(2);}
+#extizeme-switch a:hover{text-decoration:none;color:#9933ff}
+#extizeme-switch a:hover font{none;color:#9933ff}
+#extizeme-switch-btn    {text-align:center;font-size:18px;font-weight:bold;font-family:Tahoma, Arial, sans-serif;}
+
