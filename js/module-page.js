@@ -102,7 +102,7 @@ WP.Page = Ext.extend(Ext.ux.ManagedIframePanel, {
             if (wordpressHeader) {
                 WP.fireEvent('pageheaderfound', wordpressHeader);
             }
-            wordpressWidgets = f.select('.widget');
+            wordpressWidgets = f.select('.widget, .block, .sidebar-module, .blog-categories');
             if (wordpressWidgets.elements && wordpressWidgets.elements.length>0) {
                 WP.fireEvent('pagewidgetsfound', wordpressWidgets);
             }
@@ -221,7 +221,7 @@ WP.Page = Ext.extend(Ext.ux.ManagedIframePanel, {
     },
     makeEntryFontSize: function() {
         var b = this.entryFontSize;
-        this.getFrame().select('.entry, .entry *, .excerpt, .excerpt *').applyStyles({
+        this.getFrame().select('.entry, .entry *, .excerpt, .excerpt *, .post-con *, .storycontent *').applyStyles({
             'font-size'   :b +'px',
             'line-height' :b+(b/2) + 'px'
         });

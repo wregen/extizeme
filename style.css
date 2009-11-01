@@ -356,8 +356,8 @@ text-align:center;
 /* Gallery */
 .entry dd.gallery-caption { margin-left:0;}
 /* Feed Icon */
-
 .icon-feed { background-image:url(images/feed.png) !important; }
+
 
 #extizeme-switch        {-webkit-transition: all 1s ease-in-out;}
 #extizeme-switch:hover  {-webkit-transform: rotate(720deg) scale(2);}

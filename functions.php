@@ -93,7 +93,9 @@ function siteCssOptions($cssOption) {
 .wp-caption {border:1px solid #2E48AB !important;background-color:#3399ff !important;}
 
 #header a.blog-title {color:#ffffff;} 
-.accordion-item ul li a {color:#ffffff;}
+.accordion-item  a {color:#ffff00;}
+.accordion-item  a:hover {color:#ffffff;}
+#loading h1 a {color:#ffffff;}
 /*
 .x-panel-body a, .x-panel-header a, .entry a, #header h1 a   {color:#ffffff;} 
 .x-panel-bwrap a, .x-panel-header a, .entry a, #header h1 a   {color:#ffffff;} 
@@ -270,7 +272,7 @@ class ExtOptions {
                 </td>
             <tr>
             </table>
-<h3>Amazing ExtizeMe Bookmarklet</h3>
+<h3>Amazing ExtizeMe Bookmarklet (very-very-very experimental)</h3>
             <table class="form-table" >
             <tr>
                 <th scope="row">

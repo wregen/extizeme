@@ -31,6 +31,8 @@ if (isset($_REQUEST['noext'])) {
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php wp_head(); ?>
-
+<script>
+var dA = document.domain.split('.');document.domain = [dA[dA.length-2],dA[dA.length-1]].join('.');
+</script>
 </head>
 <body>
