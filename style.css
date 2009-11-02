@@ -1,12 +1,15 @@
 /*
 Theme Name: ExtizeMe
-Theme URI: http://extjswordpress.net/
+Theme URI: http://extjswordpress.net/extizeme/
 Description: Advanced, clean, fluid width, two-column theme, based on look&feel of web applications made with ExtJS library (http://extjs.com). As it uses ExtJS stylesheets, all ExtJS themes applies to it. There are 6 of them attached. To find more color styles google for "ExtJS Theme". This is ExtJS Wordpress Theme version 2.
-Version: 2.0a
+Version: 2.0
 Author: W.Regenczuk
 Author URI: http://extjswordpress.net/
-Tags: fixed width, two column, tags, widgets, theme options, options page, white, black, blue, 2.7, 2.8, wordpress 2.7, wordpress 2.8
+Tags: light,silver,blue,white,flexible-width,fixed-width,theme-options
 */
+
+
+
 
 body {
     padding: 15px;
